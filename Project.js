@@ -88,3 +88,14 @@
 // // function handleImage(e){
 // //     console.log(e,"e")
 // // }
+
+
+
+
+
+function fetch(){
+    var get=document.getElementById("get").value;
+    console.log(get,"get")
+   
+    document.getElementById("form").style.backgroundColor=get
+}
